@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Circular Std';
+  src: local('Circular Std Medium'), local('Circular-Std-Medium'),
+      url('./fonts/CircularStd-Medium.woff2') format('woff2'),
+      url('./fonts/CircularStd-Medium.woff') format('woff'),
+      url('./fonts/CircularStd-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Circular Std', sans-serif;
+}
+
+.headerButton1 {
+  @apply text-navbar text-base lg:text-[1.125rem] font-normal leading-4 lg:leading-[1.125rem];
+}
+
+.headerButton2 {
+  @apply text-light-blue text-base lg:text-[1.125rem] font-normal leading-4 lg:leading-[1.125rem] px-[2.15rem] py-[0.781rem] border border-light-blue rounded-3xl text-center;
+}
+
+h1 {
+  @apply text-navbar text-[3.125rem] lg:text-[5.313rem] font-bold leading-[3.125rem] lg:leading-[5.313rem] tracking-tight;
+}
+
+h2 {
+  @apply text-navbar text-[1.875rem] lg:text-[3.125rem] font-bold leading-[1.875rem] lg:leading-[3.125rem] tracking-tight;
+}
+
+h3 {
+  @apply text-navbar text-2xl lg:text-[1.875rem] font-bold lg:leading-[1.875rem] tracking-tight;
+
+}
+
+.description {
+  @apply text-primary-orange text-xl lg:text-2xl font-normal;
+}
+
+.descriptionNumbers {
+  @apply text-primary-orange text-2xl lg:text-[1.875rem] font-normal;
+}
+
+.closeIcon {
+  @apply text-navbar text-xl xl:text-[1.563rem] leading-[0.875rem] font-normal cursor-pointer;
+}
+
+.footerTitle {
+  @apply text-[1.125rem] leading-[1.125rem] font-normal text-navbar mb-[1.188rem];
+}
+
+.formInput {
+  @apply bg-white border border-white shadow-works rounded-md w-full py-[1.125rem] pl-4 text-footer text-[1.125rem] leading-[1.125rem] placeholder-footer font-normal focus:outline-none focus:border-white flex items-center mb-4;
+}
+
+.errorMessage {
+  @apply text-red-500 text-base font-normal;
+}
+
+.errorInput {
+  @apply !border-red-500 !placeholder-red-500 !text-red-500;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+.works-container:hover .bounce {
+  animation: bounce 3s infinite; /* Increase the duration of the bounce animation on hover */
+}
+
+.bounce {
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.bounce:hover {
+  animation: bounce 3s infinite;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.slide-in {
+  animation: slideIn 1s ease-out;
+}
