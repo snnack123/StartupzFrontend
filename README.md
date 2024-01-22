@@ -22,3 +22,6 @@ VITE_API_URL =
 
 ## Unfinished work
 - Technical debt - The code requires restructuring. In essence, it is advisable to generate several smaller components and CSS classes that are essential across multiple pages.
+
+## Live Demo
+https://www.startupz.click
