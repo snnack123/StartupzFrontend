@@ -1,6 +1,6 @@
 # React + Vite
 
-This website is a prototype showcasing how we can create a landing page based on the Figma design I received.
+This website is a prototype showcasing how we can create a landing page based on the Figma design I received (https://www.figma.com/file/GIrurcGtyHKB5hCkZB4cqM/Startupz---Landing-page?type=design&node-id=0-1&mode=design&t=CTSPwV0iqn8GXRqm-0).
 Additionally, for the contact form, we have also used a mail library that enables the actual sending of emails.
 
 These constitute the procedural steps required to perform the cloning of the project and its initiation:
