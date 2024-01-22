@@ -141,7 +141,7 @@ export default function ContactForm() {
                       <>
                         <button
                           type="submit"
-                          className="headerButton2 !text-white mt-[2.125rem] !bg-navbar !border-navbar hover:!bg-[#2a3a44] duration-300"
+                          className="headerButton2 !text-white mt-[2.125rem] !bg-navbar !border-navbar hover:!bg-[#2a3a44] duration-300 mx-auto"
                         >
                           Shoot us a message
                         </button>
