@@ -1,8 +1,24 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This website is a prototype showcasing how we can create a landing page based on the Figma design I received.
+Additionally, for the contact form, we have also used a mail library that enables the actual sending of emails.
 
-Currently, two official plugins are available:
+These constitute the procedural steps required to perform the cloning of the project and its initiation:
+- Clone the project
+- Execute ```npm i``` to install the packages
+- Create a ```.env``` file based on ```.env.example``
+- Execute ```npm run dev``` in the terminal to initiate the application.
+- Open a web browser and enter ```http://localhost:5173/```.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Most important libraries
+- Vite
+- Tailwindcss
+- Axios
+- Yup
+- Formik
+
+## ENV example
+VITE_API_URL =
+
+## Unfinished work
+- Technical debt - The code requires restructuring. In essence, it is advisable to generate several smaller components and CSS classes that are essential across multiple pages.
