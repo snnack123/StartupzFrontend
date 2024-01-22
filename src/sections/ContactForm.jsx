@@ -63,7 +63,7 @@ export default function ContactForm() {
         <p className="description !text-white leading-[1.25rem]">
           Share your excitement with us.
         </p>
-        <div className="shadow-works bg-form w-full max-w-[37.5rem] px-[2.563rem] pt-[4.5rem] pb-[2.5rem]">
+        <div className="shadow-works bg-form w-full max-w-[37.5rem] px-[2.563rem] pt-[4.5rem] pb-[2.5rem] rounded-lg">
           <Formik
             initialValues={contactFormInitialValues}
             validationSchema={contactSchema}

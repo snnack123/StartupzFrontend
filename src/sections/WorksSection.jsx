@@ -15,7 +15,7 @@ export default function WorksSection({ data, banner }) {
             </div>
             <div className="flex flex-col gap-4 items-center">
               <img src={el.image} alt='company image' className="mx-auto width-auto height-[15.25rem] bounce" />
-              <a href='#' className="w-full flex justify-center cursor-pointer">
+              <a href={el.href} className="w-full flex justify-center cursor-pointer">
                 <div className="headerButton2 w-auto hover:bg-light-blue hover:text-white duration-300">More</div>
               </a>
             </div>

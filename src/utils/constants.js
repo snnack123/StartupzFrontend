@@ -72,6 +72,7 @@ export const worksSection = {
       id: 1,
       name: "Tolq",
       color: "text-[#A9BC87]",
+      href: "https://www.startupz.com/works/tolq",
       image: Tolq,
       description:
         "Tolq is the translation solution built for e-commerce. It provides all pieces of the localization puzzle in one single integrated solution.",
@@ -80,6 +81,7 @@ export const worksSection = {
       id: 2,
       name: "Feedback Labs",
       color: "text-[#8BB5C9]",
+      href: "https://www.startupz.com/works/feedback-labs",
       image: FeedbackLabs,
       description:
         "Feedback Labs turns feedback into actionable insights for your team.",
@@ -88,6 +90,7 @@ export const worksSection = {
       id: 3,
       name: "Codekeeper",
       color: "text-[#00A0B6]",
+      href: "https://www.startupz.com/works/codekeeper",
       image: CodeKeeper,
       description:
         "Codekeeper is an all-in-one solution for software developers and publishers to provide source code escrow as part of service level and license agreements.",
@@ -96,6 +99,7 @@ export const worksSection = {
       id: 4,
       name: "LegalSite",
       color: "text-[#8B60D3]",
+      href: "https://www.startupz.com/works/legal-site",
       image: LegalSite,
       description:
         "Protected against legal risks, privacy compliant and always up-to-date with the latest regulatory developments.",

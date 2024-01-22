@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Circular Std';
+  font-family: 'Circular Std Medium';
   src: local('Circular Std Medium'), local('Circular-Std-Medium'),
       url('./fonts/CircularStd-Medium.woff2') format('woff2'),
       url('./fonts/CircularStd-Medium.woff') format('woff'),
@@ -13,7 +13,7 @@
 }
 
 * {
-  font-family: 'Circular Std', sans-serif;
+  font-family: 'Circular Std Medium', sans-serif;
 }
 
 .headerButton1 {
@@ -25,15 +25,15 @@
 }
 
 h1 {
-  @apply text-navbar text-[3.125rem] lg:text-[5.313rem] font-bold leading-[3.125rem] lg:leading-[5.313rem] tracking-tight;
+  @apply text-navbar text-[3.125rem] lg:text-[5.313rem] font-bold leading-[3.125rem] lg:leading-[5.313rem];
 }
 
 h2 {
-  @apply text-navbar text-[1.875rem] lg:text-[3.125rem] font-bold leading-[1.875rem] lg:leading-[3.125rem] tracking-tight;
+  @apply text-navbar text-[1.875rem] lg:text-[3.125rem] font-bold leading-[1.875rem] lg:leading-[3.125rem];
 }
 
 h3 {
-  @apply text-navbar text-2xl lg:text-[1.875rem] font-bold lg:leading-[1.875rem] tracking-tight;
+  @apply text-navbar text-2xl lg:text-[1.875rem] font-bold lg:leading-[1.875rem];
 
 }
 
@@ -42,7 +42,7 @@ h3 {
 }
 
 .descriptionNumbers {
-  @apply text-primary-orange text-2xl lg:text-[1.875rem] font-normal;
+  @apply text-primary-orange text-2xl lg:text-[1.875rem] font-bold;
 }
 
 .closeIcon {
