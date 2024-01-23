@@ -71,7 +71,7 @@ export default function Menu() {
               <div className="gap-2 mt-3 flex flex-col">
                 {navigation.map((item) => (
                   <div key={item.name} className='flex flex-col gap-4 text-right'>
-                    <a href={item.href} className="headerButton1 hover:text-light-blue duration-100">
+                    <a href={item.href} className="headerButton1 hover:text-light-blue duration-100" onClick={() => setMobileMenuOpen(false)}>
                       {item.name}
                     </a>
                     <hr className="w-full border-navbar" />
