@@ -17,11 +17,11 @@ export default function CreateStartups() {
             <p className="description">
               We are startup studio that develops and launches new companies.
             </p>
-            <div className="headerButton2 !text-white !bg-light-blue hover:!bg-dark-blue duration-300">
-              <a href="#works">
+            
+              <a href="#works" className="headerButton2 !text-white !bg-light-blue hover:!bg-dark-blue duration-300 cursor-pointer">
                 <span>See our works</span>
               </a>
-            </div>
+            
           </div>
         </div>
         <div className={`hidden lg:block image-container`}>
