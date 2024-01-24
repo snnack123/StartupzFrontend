@@ -68,10 +68,10 @@ export default function Menu() {
           <div className="mt-6 flow-root">
             <div className="divide-y divide-gray-500/10 border-t-2 border-black">
               {/* <div className="w-full bg-black h-1"></div> */}
-              <div className="gap-2 mt-3 flex flex-col">
+              <div className="flex flex-col gap-4 mt-4">
                 {navigation.map((item) => (
-                  <div key={item.name} className='flex flex-col gap-4 text-right'>
-                    <a href={item.href} className="headerButton1 hover:text-light-blue duration-100" onClick={() => setMobileMenuOpen(false)}>
+                  <div key={item.name} className='flex flex-col text-right'>
+                    <a href={item.href} className="headerButton1 hover:text-light-blue duration-100 mb-4" onClick={() => setMobileMenuOpen(false)}>
                       {item.name}
                     </a>
                     <hr className="w-full border-navbar" />
